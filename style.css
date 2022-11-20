@@ -1,5 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
 }
 
 h1 {
@@ -12,6 +13,7 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 50px;
 
 }
 
@@ -27,7 +29,7 @@ section {
 
 .link {
     text-decoration: none;
-    background-image: linear-gradient(orange, rgb(233, 207, 100));
+    background-image: linear-gradient(rgb(242, 73, 155), rgb(224, 161, 200));
     padding: 10px 40px;
     color: aliceblue;
     border-radius: 15px;
@@ -37,9 +39,17 @@ section {
 
 .inroduction {
     text-align: justify;
+    padding-right: 2%;
 }
 
 .top_banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.dream_big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 2%;
 }
