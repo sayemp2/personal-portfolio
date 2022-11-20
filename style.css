@@ -53,3 +53,40 @@ h1 {
     background-position: right;
     padding-right: 2%;
 }
+
+.Experience_area {
+    box-shadow: 10px 10px 10px rgb(53, 45, 45);
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 3px;
+    border-radius: 5%;
+}
+
+#web_development {
+    border-left: 7px solid;
+    border-image: linear-gradient(#f6b73c, #fffb05) 30;
+    border-image-slice: 1;
+}
+
+#full_stacks {
+    border-left: 7px solid;
+    border-image: linear-gradient(#483cf6, #e347b9) 30;
+    border-image-slice: 1;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.Experience_conteinar {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+footer p {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.559);
+
+}
