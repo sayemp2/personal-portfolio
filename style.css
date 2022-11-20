@@ -12,6 +12,7 @@ h1 {
 
 section {
     display: flex;
+
 }
 
 .half_width {
@@ -36,4 +37,9 @@ section {
 
 .inroduction {
     text-align: justify;
+}
+
+.top_banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
